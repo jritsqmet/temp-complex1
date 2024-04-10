@@ -1,0 +1,10 @@
+img{
+    width: 200px;
+    text-align: center;
+}
+.card{
+    left: 50%;
+}
+.card-body{
+    text-align: center;
+}

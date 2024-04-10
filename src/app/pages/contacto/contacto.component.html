@@ -1,0 +1,30 @@
+<h1>INFORMACIÓN DE CONTACTO</h1>
+
+<div class="row">
+
+
+    <div class="col-md-6">
+        <button class="btn btn-success"  (click)="cambiar()">Google/Open</button>
+
+        <br>
+        <div *ngIf="visualizar==true else abierto">
+            <app-mapa-google></app-mapa-google>
+        </div>
+
+       <ng-template #abierto>
+           <app-mapa-open></app-mapa-open>
+       </ng-template>
+
+       
+
+    </div>
+
+
+
+    <div class="col-md-6">
+
+    </div>
+
+
+
+</div>
